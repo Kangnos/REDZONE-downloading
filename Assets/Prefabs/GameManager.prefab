@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1994489633712062}
+  m_IsPrefabAsset: 1
+--- !u!1 &1994489633712062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4582122030328262}
+  - component: {fileID: 114677885110005292}
+  - component: {fileID: 114112997590169508}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4582122030328262
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1994489633712062}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114112997590169508
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1994489633712062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c027cc789068446118462351518e4313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114677885110005292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1994489633712062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4997558a8e8bf4453a1cdb2a612cf96d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bombs:
+  - {fileID: 1454559980153518, guid: be23691836b1c43ce951f4dbc29dc4bf, type: 2}
+  - {fileID: 1454559980153518, guid: be23691836b1c43ce951f4dbc29dc4bf, type: 2}
+  - {fileID: 1454559980153518, guid: be23691836b1c43ce951f4dbc29dc4bf, type: 2}
+  - {fileID: 1454559980153518, guid: be23691836b1c43ce951f4dbc29dc4bf, type: 2}
+  - {fileID: 1454559980153518, guid: be23691836b1c43ce951f4dbc29dc4bf, type: 2}
+  - {fileID: 1454559980153518, guid: be23691836b1c43ce951f4dbc29dc4bf, type: 2}
+  - {fileID: 1454559980153518, guid: be23691836b1c43ce951f4dbc29dc4bf, type: 2}
+  - {fileID: 1454559980153518, guid: be23691836b1c43ce951f4dbc29dc4bf, type: 2}
+  - {fileID: 1454559980153518, guid: be23691836b1c43ce951f4dbc29dc4bf, type: 2}
+  - {fileID: 1454559980153518, guid: be23691836b1c43ce951f4dbc29dc4bf, type: 2}
+  spawnValues: {x: 65, y: 65, z: 65}
+  spawnWait: 10
+  spawnMostWait: 0.1
+  spawnLeastWait: 0.06
+  startWait: 10
+  stop: 0
+  HealthSlider: {fileID: 114638750827111170, guid: 56e8a502b033741808bbc3958086e5a9,
+    type: 2}
+  countnumber: {fileID: 114067814497175750, guid: b3c21d03708274a74b9f142297257281,
+    type: 2}
+  WinText: {fileID: 1339329703044814, guid: bd6646628d58e431d805d4be91646e33, type: 2}
